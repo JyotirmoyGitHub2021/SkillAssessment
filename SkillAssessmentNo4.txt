@@ -1,0 +1,5 @@
+####To get last static 200 lines  
+     tail -n 200 cron.log
+
+####To get real time last 200 lines
+     tail -f -n 200 cron.log
