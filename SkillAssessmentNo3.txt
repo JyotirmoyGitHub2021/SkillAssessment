@@ -1,0 +1,15 @@
+////systems service called "cronListener"
+////Start/Stop/Restart Services Using Systemctl in Linux
+
+Command Start:
+Syntax:
+sudo systemctl start cronListener
+
+Command Stop:
+Syntax:
+sudo systemctl stop cronListener
+
+Command Restart:
+Syntax:
+sudo systemctl restart cronListener
+
