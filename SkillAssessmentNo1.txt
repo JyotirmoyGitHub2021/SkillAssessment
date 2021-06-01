@@ -1,0 +1,32 @@
+# change directory to codebase
+$ cd /Users/computer-name/Documents/website
+
+# make directory a git repository
+$ git init
+Initialized empty Git repository in /Users/computer-name/Documents/website/.git/
+
+
+# To add all files not staged:
+$ git add .
+
+# To stage a specific file:
+$ git add index.html
+
+# Adding a commit with message
+$ git commit -m "Commit message in quotes"
+
+#git status
+$ git status
+
+#git config structure
+$ git config <setting> <command>
+
+##Examples
+
+# Running git config globally
+$ git config --global user.name "Tech Internship"
+
+# Running git config on the current repository settings
+$ git config user.name "Tech Internship"
+
+
